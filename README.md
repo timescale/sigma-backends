@@ -14,17 +14,16 @@ Complements the [sigma-rules](https://github.com/timescale/sigma-rules) skill fo
 
 ## Install
 
-```
-/learn @timescale/sigma-backends
+```bash
+npx skills add timescale/sigma-backends -g -y
 ```
 
-Or manually copy the `SKILL.md` and `references/` directory into your skills folder:
+Or install for a specific agent:
 
-| Tool | Location |
-|------|----------|
-| Cursor | `~/.cursor/skills/sigma-backends/` |
-| Claude Code | `~/.claude/skills/sigma-backends/` |
-| GitHub Copilot | `~/.copilot/skills/sigma-backends/` |
+```bash
+npx skills add timescale/sigma-backends -g -a cursor -y
+npx skills add timescale/sigma-backends -g -a claude-code -y
+```
 
 ## Structure
 
